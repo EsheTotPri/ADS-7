@@ -20,14 +20,11 @@ class Train {
   Train();
   ~Train();
 
-  // добавить вагон с заданным состоянием лампочки
-  void addCar(bool light);
+  void addCar(bool light); // добавить вагон с заданным состоянием лампочки
 
-  // вычислить длину поезда (наивным линейным обходом)
-  std::size_t getLength();
+  std::size_t getLength(); // вычислить длину поезда (наивным линейным обходом)
 
-  // вернуть число переходов (из вагона в вагон)
-  std::size_t getOpCount() const;
+  std::size_t getOpCount() const;  // вернуть число переходов (из вагона в вагон)
 };
 
 #endif  // INCLUDE_TRAIN_H_
