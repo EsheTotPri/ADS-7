@@ -24,7 +24,8 @@ class Train {
 
   std::size_t getLength(); // вычислить длину поезда (наивным линейным обходом)
 
-  std::size_t getOpCount() const;  // вернуть число переходов (из вагона в вагон)
+// вернуть число переходов (из вагона в вагон)
+  std::size_t getOpCount() const;
 };
 
 #endif  // INCLUDE_TRAIN_H_
